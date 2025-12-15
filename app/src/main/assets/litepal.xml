@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="cool_weather" />
+    <version value="1" />
+    <!--数据库版本指定为1-->
+    <list>
+        <mapping class="com.mzh.coolweather.db.Province"/>
+        <mapping class="com.mzh.coolweather.db.City"/>
+        <mapping class="com.mzh.coolweather.db.County"/>
+    </list>
+</litepal>
